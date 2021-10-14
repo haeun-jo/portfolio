@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+        <div class="themeSwitch"></div>
+      </div>
+
+      <div class="main">
+        <div class="topbar">
+          <a href="#" class="logo">Portfolio</a>
+          <div class="toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- Banner -->
+        <section class="banner" id="banner">
+          <div class="content">
+            <div class="circle">
+              <div class="logo"></div>
+              <div class="text">
+                <p>Hello! I`m a Creative Front End Web Developer.</p>
+              </div>
+            </div>
+            <h3>Ha Eun</h3>
+
+            <ul class="socialMedia">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>About Me</h2>
+          </div>
+          <div class="content">
+            <p class="textBox">
+              My name is <strong>Jo Ha Eun</strong>.
+              <br />
+              <br />
+              <strong>- Date of Birth</strong><br />
+              &nbsp;&nbsp; 1992. 07. 27 (만29세)
+              <br />
+              <br />
+              <strong>- Skills</strong><br />
+              &nbsp;&nbsp; HTML, CSS, JavaScript<br />
+              &nbsp;&nbsp; SCSS<br />
+              &nbsp;&nbsp; ES6+<br />
+              &nbsp;&nbsp; React, Redux<br />
+              &nbsp;&nbsp;&nbsp;&nbsp; Styled Components<br />
+              &nbsp;&nbsp; Node.js, Express<br />
+              &nbsp;&nbsp; MongoDB
+              <br />
+              <br />
+              <strong>- Major</strong><br />
+              &nbsp;&nbsp; I majored in
+              <i>Nutrition&Food Service Management</i>.
+              <br />
+              <br />
+              <strong>- Study</strong><br />
+              &nbsp;&nbsp; I studied at <i>KoreaITAcademy</i>.
+            </p>
+            <div class="imgBx">
+              <img src="./image/user3.jpg" alt="background" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="project adjust" id="project">
+          <div class="title">
+            <h2>My Project</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+              voluptatum,
+            </p>
+          </div>
+
+          <div class="content">
+            <div class="projectBx">
+              <div class="videoBx">
+                <video autoplay muted loop>
+                  <source src="./video/react-node-login.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="video-desc">
+                <p>
+                  <b>Landing Page</b><br />
+                  <b>Login Page</b><br />
+                  <b>Register Page</b>
+                  <br />
+                  <br />
+                  &nbsp;&nbsp; React<br />
+                  &nbsp;&nbsp; Redux<br />
+                  &nbsp;&nbsp; styled-components<br />
+                  &nbsp;&nbsp; SCSS<br />
+                  &nbsp;&nbsp; Node.js<br />
+                  &nbsp;&nbsp; express
+                </p>
+                <div class="button-gruop">
+                  <a href="#" class="btn">view demo</a>
+                  <a href="#" class="btn">view project</a>
+                </div>
+              </div>
+            </div>
+            <div class="projectBx">
+              <div class="videoBx">
+                <video autoplay muted loop>
+                  <source src="./video/hamburger-menu.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="video-desc">
+                <p>
+                  <b>Hamburger Menu</b>
+                  <br />
+                  <br />
+                  &nbsp;&nbsp; React<br />
+                  &nbsp;&nbsp; SCSS<br />
+                  &nbsp;&nbsp; GSAP
+                </p>
+                <div class="button-gruop">
+                  <a
+                    href="https://github.com/haeun-jo/hamburger-menu"
+                    target="_blank"
+                    class="btn"
+                    >view code</a
+                  >
+                  <a href="#" class="btn">view project</a>
+                </div>
+              </div>
+            </div>
+            <div class="projectBx">
+              <div class="videoBx">
+                <video autoplay muted loop>
+                  <source
+                    src="./video/responsive-website.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="video-desc">
+                <p>
+                  <b>Responsive Web</b>
+                  <br />
+                  <br />
+                  &nbsp;&nbsp; HTML<br />
+                  &nbsp;&nbsp; CSS<br />
+                  &nbsp;&nbsp; JS
+                </p>
+                <div class="button-gruop">
+                  <a
+                    href="https://github.com/haeun-jo/responsive-web"
+                    class="btn"
+                    target="_blank"
+                    >view code</a
+                  >
+                  <a href="#" class="btn">view project</a>
+                </div>
+              </div>
+            </div>
+            <div class="projectBx">
+              <div class="videoBx">
+                <video autoplay muted loop>
+                  <source src="./video/todolist.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="video-desc">
+                <p>
+                  <b>Todo List</b>
+                  <br />
+                  <br />
+                  &nbsp;&nbsp; React<br />
+                  &nbsp;&nbsp; styled-components<br />
+                </p>
+                <div class="button-gruop">
+                  <a
+                    href="https://github.com/haeun-jo/todolist"
+                    target="_blank"
+                    class="btn"
+                    >view code</a
+                  >
+                  <a href="#" class="btn">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact adjust" id="contact">
+          <div class="title">
+            <h2>Let`s Say Hi</h2>
+          </div>
+
+          <div class="content">
+            <div class="card">
+              <span style="--i: 0"></span>
+              <span style="--i: 1"></span>
+              <span style="--i: 2"></span>
+              <span style="--i: 3"></span>
+              <div class="glass contact-desc">
+                <b>Email:</b>
+                <a href="mailto:gkdmsdl0727@naver.com">gkdmsdl0727@naver.com</a>
+                <a href="mailto:gkdmsdl0727@gmail.com">gkdmsdl0727@gmail.com</a>
+
+                <b>Blog:</b>
+                <a href="https://haoharu.tistory.com/" target="_blank">
+                  https://haoharu.tistory.com
+                </a>
+
+                <b>Github:</b>
+                <a href="https://github.com/haeun-jo" target="_blank">
+                  https://github.com/haeun-jo
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Copyright Text -->
+        <div class="copyright">
+          <p>Copyright © 2021 | All Rights Reserved. | HAEUN JO</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let toggle = document.querySelector(".toggle");
+      let topbar = document.querySelector(".topbar");
+      let navigation = document.querySelector(".navigation");
+      let main = document.querySelector(".main");
+      let themeSwitch = document.querySelector(".themeSwitch");
+      let body = document.querySelector("body");
+
+      toggle.addEventListener("click", function () {
+        toggle.classList.toggle("active");
+        topbar.classList.toggle("active");
+        navigation.classList.toggle("active");
+        main.classList.toggle("active");
+      });
+
+      // theme switch toggle
+      themeSwitch.addEventListener("click", function () {
+        body.classList.toggle("dark");
+      });
+
+      // fix menu active class issue
+      function toggleMenu() {
+        let navigation = document.querySelector(".navigation");
+        let main = document.querySelector(".main");
+        navigation.classList.remove("active");
+        main.classList.remove("active");
+      }
+
+      // banner - animated circle text logo effects
+      const text = document.querySelector(".text p");
+
+      text.innerHTML = text.innerText
+        .split("")
+        .map(
+          (char, i) =>
+            `<span style="transform:rotate(${i * 7.8}deg)">${char}</span>`
+        )
+        .join("");
+    </script>
+  </body>
+</html>
