@@ -468,6 +468,10 @@ body {
   margin-top: 10px;
 }
 
+.dark .contact .contact-desc b {
+  color: #1a237e;
+}
+
 /* Dark and Light mode switch */
 .themeSwitch {
   position: absolute;
